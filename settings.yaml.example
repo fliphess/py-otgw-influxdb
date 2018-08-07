@@ -1,0 +1,40 @@
+---
+######################################################
+## OTGW Influx proxy                                ##
+######################################################
+
+otmonitor_url: "http://otmonitor.example.com:8080/json"
+otmonitor_websocket_url: "ws://otmonitor.example.com:8080/status.ws"
+
+max_modulation: 100
+min_modulation: 30
+
+influx_hostname: influx.example.com
+influx_port: 8086
+influx_username: root
+influx_password: assword
+influx_database: otmonitor
+influx_measurement: otmonitor
+influx_retention_policy: autogen
+influx_tags: []
+
+poller_wait_time: 20
+
+status_keys:
+  - "flame"
+  - "dhwmode"
+  - "chmode"
+  - "ch2mode"
+  - "dhwenable"
+  - "diag"
+  - "fault"
+  - "outside"
+  - "roomtemp"
+  - "setpoint"
+  - "modulation"
+  - "controlsp"
+  - "dhwsetpoint"
+  - "dhwtemp"
+  - "maxmod"
+  - "pressure"
+
