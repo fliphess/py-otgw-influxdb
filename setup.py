@@ -6,7 +6,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 
 setup(
-    name='mqtt_otgw',
+    name='otgw_influxdb',
     version='20180707.1',
     url='https://github.com/fliphess/py-otgw-influxdb.git',
     author_email='undef',
